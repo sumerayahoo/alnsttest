@@ -1,0 +1,300 @@
+*{
+    
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+    
+}
+body {
+  background-image: url('https://media.istockphoto.com/id/1151082661/vector/retro-sci-fi-background-futuristic-landscape-of-the-80s-digital-cyber-surface-suitable-for.jpg?s=612x612&w=0&k=20&c=4HbMZEmxF08zcS_NgSXDKBJXsWSZTAXRKuC1UNvlOQY=');
+  background-size: cover;     /* Make image cover the whole area */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.navbar{
+    height: 80px;
+    background-color: #240046;
+    display: flex;
+    align-items: center;
+    column-gap: 5rem;
+    
+
+}
+.nav-logo{
+  height:100px;
+  width: 100px;
+
+}
+.logo{
+  background-image: url("https://yt3.googleusercontent.com/wSwVevDtF9oePYjFbWETTUZ3iLC_-hsrxicYg6p70vX813vVjXqUSbTncLs5g007RmigKb5pAw=s900-c-k-c0x00ffffff-no-rj");
+  height: 90px;
+  background-size: cover;
+  width:100px;
+}
+.border{
+  border: 1.5px transparent white;
+  border-radius: 0.5rem;
+}
+.border:hover{
+  border: 1.5px solid white;
+  
+
+}
+.nav-address{
+  color: white;
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7 ;
+
+}
+.nav-address:hover{
+  border: 1.5px solid white;
+}
+.nav-search{
+  display: flex;
+  border-radius: 1rem;
+  justify-content: space-evenly;
+  
+}
+.search-select{
+  background-color: #9d4edd;
+  width: 50px;
+  color: white;
+  text-align: center;
+  height: 40px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius:0.5rem ;
+}
+.search-input{
+  width: 400px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius:0.5rem ;
+  font-size: 1rem;
+}
+.nav-signin{
+  color:white;
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7 ;
+
+}
+
+.nav-signin:hover{
+  border: 1.5px solid white;
+
+}
+.nav-contact{
+  color: white;
+  font-size:1.5rem;
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7 ;
+  
+ 
+}
+.nav-contact:hover{
+  border: 1.5px solid white;
+}
+.nav-return{
+  color: white;
+  
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7;
+}
+.nav-return:hover{
+  border: 1.5px solid white;
+}
+.nav-cart{
+  color:white;
+  
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7;
+}
+.nav-cart:hover{
+  border: 1.5px solid white;
+}
+.panel-ops{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 
+      0 0 10px #fff,
+      0 0 20px #00eaff,
+      0 0 30px #00eaff,
+      0 0 40px #00eaff;
+  }
+  to {
+    text-shadow: 
+      0 0 20px #fff,
+      0 0 30px #00b8d4,
+      0 0 40px #00b8d4,
+      0 0 50px #00b8d4;
+  }
+}
+.hero-section{
+  background-image: url("https://tbaw.ca/wp-content/uploads/2025/03/cover.png");
+  
+  background-size: cover;
+  height: 500px;
+  width:1550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.ivan{
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 0 10px #000;
+}
+h3{
+  color: white;
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.shop-select{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+.box{
+  border:2px solid black;
+  height:400px;
+  width: 23%;
+  color: white;
+  text-align: center;
+  
+  text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7;
+  
+  
+    border: none;
+}
+.box h2{
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.box h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.box-img{
+  height:350px;
+  background-size: cover;
+  box-shadow:0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4;
+   
+}
+
+
+.box-img1{
+  height: 350px;
+  background-size: cover;
+  box-shadow:0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4;
+
+  
+}
+.box-img2{
+  height: 350px;
+  background-size: cover;
+  box-shadow:0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4;
+}
+.box-img3{
+   height: 350px;
+  background-size: cover;
+  box-shadow:0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4;
+}
+.box-img:hover{
+  opacity: 0.5;
+}
+.box-img1:hover{
+  opacity: 0.5;
+}
+.box-img2:hover{
+  opacity:0.5;
+}
+.box-img3:hover{
+  opacity: 0.5;
+}
+
+.foot-panel1 {
+    position: relative;
+    width: fit-content;
+}
+
+.foot-panel1 img {
+    display: block;
+    width: 1550px;
+}
+
+.foot-panel1 .text {
+    position: absolute;
+    top: 10px; /* adjust */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* or any color that shows up */
+     text-shadow: 
+    0 0 5px #00eaff,
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00b8d4,
+    0 0 80px #0097a7;
+    text-align: center;
+    font-size: 2rem;
+}
+#hi{
+  color: white;
+}
+.navbar a{
+  color:white;
+  text-decoration: none;
+}
